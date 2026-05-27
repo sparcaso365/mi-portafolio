@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>David Polindara | Portafolio</title>
+
+    <!-- Conexión CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <header class="hero">
+
+        <div class="hero-avatar">
+            <img src="https://res.cloudinary.com/drpysy1el/image/upload/v1779820890/WhatsApp_Image_2026-05-26_at_1.41.18_PM_ttyahi.jpg" alt="Foto de perfil">
+        </div>
+
+        <h1>DAVID POLINDARA</h1>
+
+        <p>Técnico en Programación de Software · SENA</p>
+
+    </header>
+
+    <!-- CONTACTO -->
+    <section class="contact-bar">
+
+        <div class="contact-item">
+            📞 314-293-4488
+        </div>
+
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=destebanpc3@gmail.com"
+            target="_blank"
+            class="contact-link">
+
+            ✉️ destebanpc3@gmail.com
+
+        </a>
+
+        <div class="contact-item">
+            📍 Bogotá D.C.
+        </div>
+
+    </section>
+
+    <!-- CONTENIDO -->
+    <main class="container">
+
+        <!-- IZQUIERDA -->
+        <section>
+
+            <div class="card">
+                <h2>Contacto</h2>
+
+                <div class="info">
+                    <p>📞 +57 314-293-4488</p>
+                    <p>✉️ destebanpc3@gmail.com</p>
+                    <p>📍 Bogotá D.C.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Habilidades Técnicas</h2>
+
+                <div class="skill-item">
+
+                    <div class="skill-label">
+                        <span>HTML</span>
+                        <span>60%</span>
+                    </div>
+
+                    <div class="bar">
+                        <div class="bar-fill html"></div>
+                    </div>
+
+                </div>
+
+                <div class="skill-item">
+
+                    <div class="skill-label">
+                        <span>SQL</span>
+                        <span>65%</span>
+                    </div>
+
+                    <div class="bar">
+                        <div class="bar-fill sql"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- DERECHA -->
+        <section>
+
+            <div class="card">
+
+                <h2>Perfil Profesional</h2>
+
+                <p>
+                    Aprendiz SENA en Programación de Software,
+                    con conocimientos en HTML, SQL y herramientas ofimáticas.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h2>Formulario de Contacto</h2>
+
+                <form 
+    action="https://formsubmit.co/destebanpc3@gmail.com" 
+    method="POST"
+    class="contact-form"
+>
+
+    <!-- Evita spam -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <!-- Página de éxito opcional -->
+    <input 
+        type="hidden" 
+        name="_next" 
+        value="http://localhost:3000"
+    >
+
+    <input 
+        type="text"
+        name="name"
+        placeholder="Tu nombre"
+        required
+    >
+
+    <input 
+        type="email"
+        name="email"
+        placeholder="Tu correo"
+        required
+    >
+
+    <textarea 
+        name="message"
+        placeholder="Escribe tu mensaje"
+        required
+    ></textarea>
+
+    <button type="submit">
+        Enviar mensaje
+    </button>
+
+</form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        © 2026 David Polindara
+    </footer>
+
+    <!-- Conexión JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
